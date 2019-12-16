@@ -14,6 +14,7 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 50px;
+  position:relative;
 }
 
 .footer { 
@@ -183,7 +184,7 @@ ul.nav li a.active {
   }
   
   body {
-    
+    position:relative;
     padding: 30px;
     padding-top: 50px;
     
