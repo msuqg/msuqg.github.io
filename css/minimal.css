@@ -19,11 +19,11 @@ body {
 .footer { 
   bottom: 0;
   margin-top: 80px;
-  padding: 1.2em 0;
   text-align: center;
   color: #a6a6a6; 
   background: #18453b;
   position: absolute;
+  max-width: none;
 }
 
 a {
