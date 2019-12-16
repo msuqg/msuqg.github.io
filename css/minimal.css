@@ -15,6 +15,7 @@ body {
   margin: auto;
   padding: 50px;
   position:relative;
+  padding-bottom:80px;
 }
 
 .footer { 
@@ -183,12 +184,18 @@ ul.nav li a.active {
     display: none;
   }
   
-  body {
-    position:relative;
-    padding: 30px;
-    padding-top: 50px;
-    
-  }
+body {
+  font: 16px Lato, "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight:300;
+  line-height: 20px;
+  text-align: left;
+  max-width: 900px;
+  margin: auto;
+  padding: 50px;
+  position:relative;
+  padding-bottom:80px;
+}
 
 .footer { 
   bottom: 0;
