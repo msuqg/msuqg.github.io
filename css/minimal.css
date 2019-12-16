@@ -19,7 +19,9 @@ body {
 .footer { 
   bottom: 0;
   right: 0;
-  text-align: right;
+  margin-top: 80px;
+  padding: 1.2em 0;
+  text-align: center;
   color: #a6a6a6; 
   background: #18453b;
   position: absolute;
@@ -188,7 +190,9 @@ ul.nav li a.active {
 .footer { 
   bottom: 0;
   right: 0;
-  text-align: right;
+  margin-top: 80px;
+  padding: 1.2em 0;
+  text-align: center;
   color: #a6a6a6; 
   background: #18453b;
   position: absolute;
