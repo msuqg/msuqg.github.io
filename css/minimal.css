@@ -16,7 +16,7 @@ body {
   padding: 50px;
 }
 
-.footer { position: fixed; bottom: 0; }
+.footer { position: fixed; bottom: 0; text-align: right; color: #a6a6a6;}
 
 a {
   color:#008183;
