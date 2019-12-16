@@ -18,14 +18,15 @@ body {
 
 .footer { 
   bottom: 0;
+  right: 0;
+  left: 0;
   margin-top: 80px;
   text-align: center;
   color: #a6a6a6; 
   background: #18453b;
   position: absolute;
   max-width: none;
-  padding-left: 5000px;
-  padding-right: 5000px;
+  padding: 1rem;
 }
 
 a {
