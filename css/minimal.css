@@ -16,7 +16,14 @@ body {
   padding: 50px;
 }
 
-.footer { position: fixed; bottom: 0; text-align: right; color: #a6a6a6;}
+.footer { 
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  color: #a6a6a6; 
+  background: #18453b;
+  position: absolute;
+}
 
 a {
   color:#008183;
@@ -178,7 +185,14 @@ ul.nav li a.active {
     
   }
 
-  .footer { position: fixed; bottom: 0; text-align: right; color: #a6a6a6;}
+.footer { 
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  color: #a6a6a6; 
+  background: #18453b;
+  position: absolute;
+}
 
 }
 
