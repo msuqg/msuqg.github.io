@@ -111,6 +111,8 @@ ul.nav li a.active {
   color: #ccc;
 }
 
+.footer { position: fixed; bottom: 0; }
+
 @media screen and (max-width:800px) {
   
   ul.logo {
@@ -173,8 +175,6 @@ ul.nav li a.active {
     padding-top: 50px;
     
   }
-
-  .footer { position: fixed; bottom: 0; }
 
 }
 
