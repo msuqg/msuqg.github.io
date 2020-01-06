@@ -62,7 +62,9 @@ function emails() {
   if (phrase == null || phrase == "") {
     txt = "User cancelled the prompt.";
   } else {
-    if(phrase == "test"){
+    //pineapplepizzaisbestpizza
+    phrase = atob(phrase);
+    if(phrase == "cGluZWFwcGxlcGl6emFpc2Jlc3RwaXp6YQ=="){
       alert("Emails list");
     }
   }
