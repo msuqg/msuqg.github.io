@@ -133,7 +133,7 @@ ul.nav {
 
 ul.nav li {
   display: inline-block;
-  width: calc((100% - 160px)/5.1);
+  width: 10%;
 }
 
 ul.nav li a {
