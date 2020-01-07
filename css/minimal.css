@@ -29,6 +29,8 @@ html {
   padding-bottom: 25px;
 }
 
+iframe { width:100%; padding:0; border:0; hegiht:100px; }
+
 body {
   font: 16px Lato, "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
@@ -42,6 +44,9 @@ body {
   padding-bottom:200px;
   height:100%;
 }
+.non-floater { overflow:hidden; }
+
+
 
 .footer { 
   bottom: 0;
