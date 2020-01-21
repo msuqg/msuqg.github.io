@@ -14,55 +14,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155637415-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155637415-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-155637415-1');
+    </script>
 
-  gtag('config', 'UA-155637415-1');
-</script>
-
- 	  
+ 	  <link rel="import" href="nav.html">
   </head>
   
   <body>
-    <ul id="topnav" class="nav">   
-      <li><a class="active" href="/index.html">Home</a></li>
-      <li><a href="/people.html">People</a></li>
-      <li><a href="/research.html">Research</a></li>
-      <li><a href="/publications.html">Papers</a></li> 
-      <li><a href="/software.html">Software</a></li>
-      <li><a href="/vacancies.html">Vacancies</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-      <li><div class="dropdown">
-          Links
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div> </li>
-    </ul>
-
-    <ul id="corner" class="logo">
-      <li><a href="/index.html">@QuantGen_MSU</a></li>
-    </ul>
-
-    <ul id="corner" class="icon">
-      <li class="icon"><a href="javascript:void(0);" onclick="navicon()"><i class="fa fa-clone" aria-hidden="true"></i></a></li>
-    </ul>
-
-<script>
-function navicon() {
-    var x = document.getElementById("topnav");
-    if (x.className === "nav") {
-        x.className += " responsive";        
-    } else {
-        x.className = "nav";
-    }
-}
-</script>
+    <script>
+      var content = document.querySelector('link[rel="import"]').import;
+    </script>
 
     <h2 id="wen-huang-laboratory"><center>Quantitative Animal Genetics Group</center></h2>
 

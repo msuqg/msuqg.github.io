@@ -1,0 +1,36 @@
+<ul id="topnav" class="nav">   
+      <li><a class="active" href="/index.html">Home</a></li>
+      <li><a href="/people.html">People</a></li>
+      <li><a href="/research.html">Research</a></li>
+      <li><a href="/publications.html">Papers</a></li> 
+      <li><a href="/software.html">Software</a></li>
+      <li><a href="/vacancies.html">Vacancies</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li>
+        <div class="dropdown">
+          Links
+          <div class="dropdown-content">
+            <a href="https://quantgen.github.io/">QuantGen Group</a>
+          </div>
+        </div> 
+      </li>
+    </ul>
+
+    <ul id="corner" class="logo">
+      <li><a href="/index.html">@QuantGen_MSU</a></li>
+    </ul>
+
+    <ul id="corner" class="icon">
+      <li class="icon"><a href="javascript:void(0);" onclick="navicon()"><i class="fa fa-clone" aria-hidden="true"></i></a></li>
+    </ul>
+
+<script>
+function navicon() {
+    var x = document.getElementById("topnav");
+    if (x.className === "nav") {
+        x.className += " responsive";        
+    } else {
+        x.className = "nav";
+    }
+}
+</script>
