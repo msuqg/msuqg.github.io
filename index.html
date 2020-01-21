@@ -22,12 +22,18 @@
       gtag('config', 'UA-155637415-1');
     </script>
 
- 	  <link rel="import" href="nav.html">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   
   <body>
+    <div id="nav-placeholder">
+
+    </div>
+
     <script>
-      <?php include("example.html") ?>
+      $(function(){
+        $("#nav-placeholder").load("nav.html");
+      });
     </script>
 
     <h2 id="wen-huang-laboratory"><center>Quantitative Animal Genetics Group</center></h2>
