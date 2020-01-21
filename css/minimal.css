@@ -46,11 +46,6 @@ body {
 }
 .non-floater { overflow:hidden; }
 
-.dropdown {
-
-  overflow: hidden;
-}
-
 .dropdown .dropbtn {
   border: none;
   outline: none;
