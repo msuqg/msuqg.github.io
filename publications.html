@@ -22,38 +22,19 @@
 
   gtag('config', 'UA-155637415-1');
 </script>
-
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     
   </head>
   
   <body>
-    <ul id="topnav" class="nav">   
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/people.html">People</a></li>
-      <li><a href="/research.html">Research</a></li>
-      <li><a class="active" href="/publications.html">Papers</a></li> 
-      <li><a href="/software.html">Software</a></li>
-      <li><a href="/vacancies.html">Vacancies</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-    </ul>
-
-    <ul id="corner" class="logo">
-      <li><a href="/index.html">QuantGen@MSU</a></li>
-    </ul>
-
-    <ul id="corner" class="icon">
-      <li class="icon"><a href="javascript:void(0);" onclick="navicon()"><i class="fa fa-clone" aria-hidden="true"></i></a></li>
-    </ul>
-
-<script>
-function navicon() {
-    var x = document.getElementById("topnav");
-    if (x.className === "nav") {
-        x.className += " responsive";        
-    } else {
-        x.className = "nav";
-    }
-}
+        <!--- This neat little script pulls the navigation bar from nav.html, so updating nav should only be done there!-->
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function(){
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--- nav end --->
 </script>
 
     <h2 id="papers">Papers</h2>
